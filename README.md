@@ -1,4 +1,24 @@
 # Devfolio
+# Jayden Loring Portfolio
+
+My personal portfolio website showcasing my projects, skills, and academic background as a Computer Science student at Oakland City University.
+
+**Live Site:** https://SP26-CS315-JaydenLoring.github.io
+
+## Built With
+- GatsbyJS
+- React
+- TailwindCSS
+
+## What’s Inside
+- About / Bio
+- Education
+- Skills
+- Projects
+- Contact links
+
+## Template Credit
+This site is based on the Devfolio template by Ryan Fitzgerald.
 
 ![Preview](https://user-images.githubusercontent.com/9112801/96329524-c8906600-101b-11eb-8fd8-4d45e7f0cd1b.jpg)
 
