@@ -9,34 +9,53 @@ module.exports = {
     // Description that goes under your name in main bio
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
-    // Optional: Github account URL
-    github: `https://github.com/RyanFitzgerald`,
-    // Optional: LinkedIn account URL
-    linkedin: `https://github.com/RyanFitzgerald/devfolio`,
-    // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    author: '@yLoringJayden',
+github: 'https://github.com/SP26-CS315-JaydenLoring/',
+linkedin: 'https://www.linkedin.com/in/jayden-loring-96734a265/',
+
+    about: `I am a Computer Science student at Oakland City University with a strong interest in building reliable, practical software that solves real problems. My focus is primarily backend and systems-adjacent development, where I enjoy working close to how things actually function rather than hiding behind abstractions. I have experience developing applications using Python, JavaScript, C, and SQL, and I am comfortable working across the full development workflow, from design to implementation and version control.
+
+Through my coursework and personal projects, I have developed a solid foundation in data structures, backend development, and application logic. I enjoy breaking down complex problems, designing clean solutions, and writing code that is readable, efficient, and maintainable. I am particularly interested in software engineering, backend systems, and the intersection of software with hardware and low-level computing.
+
+What sets me apart is my technical discipline and persistence. I approach problems methodically, value strong fundamentals, and continuously refine my skills through hands-on projects and experimentation. I am currently working toward building a strong professional portfolio and gaining real-world experience through internships or entry-level roles where I can continue learning, contribute meaningfully, and grow as a developer.`,
+
+education: [
+  {
+    degree: 'Bachelor of Science in Computer Science',
+    institution: 'Oakland City University',
+    graduation: 'Expected May 2026',
+    coursework: [
+      'Data Structures and Algorithms',
+      'Application Development (Backend)',
+      'Database Systems',
+      'Modern Web Technologies',
+      'Computer Organization and C Programming',
+    ],
+  },
+],
+
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
-      {
-        name: 'Devfolio',
-        description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'ExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://extensionkit.io/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
+  {
+    name: 'CS300 Digital Notebook',
+    description:
+      'A structured GitHub repository used to document coursework, code snippets, and development concepts while practicing professional Git workflows and documentation.',
+    link: 'https://github.com/yourusername/cs300-digital-notebook',
+  },
+  {
+    name: 'Command-Line Data Processor',
+    description:
+      'A Node.js command-line application that reads JSON data, processes user input, and writes filtered results to files with proper validation and error handling.',
+    link: 'https://github.com/yourusername/node-data-processor',
+  },
+  {
+    name: 'Personal Portfolio Website',
+    description:
+      'A responsive portfolio website showcasing my projects, skills, and academic background, built and deployed using modern static site tooling.',
+    link: 'https://yourusername.github.io',
+  },
+],
+
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
@@ -56,23 +75,24 @@ module.exports = {
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
-    skills: [
-      {
-        name: 'Languages & Frameworks',
-        description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
-      },
-      {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
-      },
-      {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
-      },
-    ],
-  },
+   skills: [
+  'Python',
+  'JavaScript',
+  'C',
+  'Java',
+  'SQL',
+  'HTML',
+  'CSS',
+  'Node.js',
+  'REST APIs',
+  'Git',
+  'GitHub',
+  'Linux',
+  'MySQL',
+  'SQLite',
+  'Object-Oriented Programming',
+],
+
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
