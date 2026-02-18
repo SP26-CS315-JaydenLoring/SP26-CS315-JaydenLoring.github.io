@@ -50,9 +50,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RyanFitzgerald/devfolio"
+    "url": "git+https://github.com/RyanFitzgerald/devfolio.git"
   },
   "bugs": {
     "url": "https://github.com/RyanFitzgerald/devfolio/issues"
-  }
+  },
+  "main": "gatsby-browser.js",
+  "homepage": "https://github.com/RyanFitzgerald/devfolio#readme"
 }
